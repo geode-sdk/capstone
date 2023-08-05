@@ -279,4 +279,5 @@ uint64_t MCInst_getOpVal(MCInst *MI, unsigned OpNum)
 		return MCOperand_getImm(op);
 	else
 		assert(0 && "Operand type not handled in this getter.");
+	return 0;
 }
