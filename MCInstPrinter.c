@@ -85,6 +85,7 @@ static bool matchAliasCondition(MCInst *MI, const MCRegisterInfo *MRI,
 		assert(0 && "handled earlier");
 	}
 	assert(0 && "invalid kind");
+	return false;
 }
 
 /// Check if PatternsForOpcode is all zero.
